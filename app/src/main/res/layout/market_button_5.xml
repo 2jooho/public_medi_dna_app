@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <!-- 깔끔하게 보여주기 위해 scaleType과 marginTop 속성을 줍니다. -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fram5"
+        android:layout_marginTop="40dp">
+        <ImageButton
+            android:id="@+id/imagebtn_item5"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:background="@drawable/small_capsul"
+
+            android:onClick="clickHandler"
+
+
+            />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:layout_gravity="top|center"
+    android:background="@drawable/huyuan"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:id="@+id/text5_1"
+            android:layout_gravity="bottom"
+            android:text="휴안\n티캡슐"
+            android:textColor="#01133D"
+            android:textAlignment="center"
+            android:paddingTop="15dp"
+            android:background="#00000000"/>
+        <TextView
+            android:id="@+id/text5_2"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:background="#4dD8DBE3"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

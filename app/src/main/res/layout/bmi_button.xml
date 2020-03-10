@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <!-- 깔끔하게 보여주기 위해 scaleType과 marginTop 속성을 줍니다. -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/imagebtn_bmi"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/dna_btn"
+            android:onClick="clickHandler"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:id="@+id/textview_bmi"
+            android:background="@drawable/dna_btn2"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/item_bmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:text="체질량" />
+            <TextView
+                android:id="@+id/level_bmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#A90C0C"
+                android:textSize="27dp"
+                android:paddingLeft="10dp"
+                android:text="높음" />
+            <TextView
+                android:id="@+id/gene_bmi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:text="FTO MC4R BDNF" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

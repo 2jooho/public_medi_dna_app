@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Med:na</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_onboard">onboard</string>
+    <string name="title_activity_login">login</string>
+
+    </resources>

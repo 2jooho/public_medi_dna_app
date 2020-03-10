@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:textColor="#228BE6"
+            android:id="@+id/text_light"
+            android:text="90" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조명 시간"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#DFDBDA"/>
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:max="99"
+            android:id="@+id/bar"
+            android:progress="90"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom"
+        android:layout_weight="1"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="63dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="130dp"
+            android:background="#DFDBDA"
+            android:text="적용하기"
+            android:layout_marginTop="-20dp"
+            android:textColor="#228BE6"
+            android:id="@+id/btn"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="-3dp" />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

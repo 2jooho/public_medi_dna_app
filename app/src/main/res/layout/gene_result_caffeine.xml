@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_url"
+        android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="40dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="유전자형 분석 결과 및 위험도 분석"
+        android:textSize="22dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#474747"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_weight="2"
+        android:background="@drawable/dna_btn"
+        android:text="2"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="8dp" />
+</LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="32dp"
+    android:layout_marginTop="10dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/gene_result_down"
+            android:layout_weight="1"
+            android:text="낮음"
+            android:id="@+id/level1"
+            android:textColor="#0d4d1d"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="22dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AHR"
+                android:id="@+id/gene_name1"
+                android:textSize="30dp"
+                android:textColor="#292929"/>
+            <TextView
+                android:layout_marginTop="-5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="카페인의 습관적 소비에 관련된 유전자"
+                android:textSize="15dp"
+                android:textColor="#3a404c"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:background="@drawable/gene_result_up"
+            android:layout_weight="1"
+            android:text="높음"
+            android:id="@+id/level2"
+            android:textColor="#a90c0c"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:paddingTop="22dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CYP1A2"
+                android:id="@+id/gene_name2"
+                android:textSize="30dp"
+                android:textColor="#292929"/>
+            <TextView
+                android:layout_marginTop="-5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="카페인 대사 속도에 큰 영향을 주는 유전자"
+                android:textSize="15dp"
+                android:textColor="#3a404c"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="20dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="150dp"
+            android:layout_height="180dp">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/disease_shape"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/disease_shape2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:text="합병증"
+                android:textColor="#cc000000"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="85dp"
+                android:id="@+id/complication"
+                android:text="지방간 대장암 유방암 요실금 심근경색"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textColor="#e6000000"
+                android:textSize="22dp" />
+            <TextView
+            android:layout_width="28dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp"
+            android:text="합병증"
+            android:textAlignment="center"
+            android:background="@drawable/disease_shape3_min"
+            android:textColor="#e88579"
+            android:textSize="8dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="150dp"
+                android:text="●●●"
+                android:textAlignment="center"
+                android:background="@drawable/disease_shape3_min"
+                android:textColor="#e88579"
+                android:textSize="8dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/disease_shape"/>
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/symptom_shape2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:text="이상증상"
+                android:textColor="#cc000000"
+                android:textSize="22dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="85dp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:id="@+id/sym"
+                android:text="월경이상 허리통증 우울감 당뇨 고혈압"
+                android:textColor="#e6000000"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="28dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"
+                android:text="이상증상"
+                android:textAlignment="center"
+                android:background="@drawable/symptom_shape_min"
+                android:textColor="#c8900f"
+                android:textSize="8dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="150dp"
+                android:text="●●●"
+                android:textAlignment="center"
+                android:background="@drawable/symptom_shape_min"
+                android:textColor="#c8900f"
+                android:textSize="8dp" />
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="180dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/disease_shape"/>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="45dp"
+                    android:background="@drawable/nutrient_shape1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="35dp"
+                    android:text="영양소"
+                    android:textColor="#cc000000"
+                    android:textSize="22dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="85dp"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:id="@+id/nutrient"
+                    android:text="카테킨 가르시니아 식이섬유 비타민A"
+                    android:textColor="#e6000000"
+                    android:textSize="22dp" />
+                <TextView
+                    android:layout_width="28dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="150dp"
+                    android:text="영양소"
+                    android:textAlignment="center"
+                    android:background="@drawable/nutrient_shape3_min"
+                    android:textColor="#0d4d1d"
+                    android:textSize="8dp" />
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="150dp"
+                    android:text="●●●"
+                    android:textAlignment="center"
+                    android:background="@drawable/nutrient_shape3_min"
+                    android:textColor="#0d4d1d"
+                    android:textSize="8dp" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="20dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="0sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/disease_shape"/>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="45dp"
+                    android:background="@drawable/product_shape2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="35dp"
+                    android:text="추천제품"
+                    android:textColor="#cc000000"
+                    android:textSize="22dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="85dp"
+                    android:text="스위트바질 버터헤드 청치마상추 소렐 오크리프 청롤로상추"
+                    android:textColor="#e6000000"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:layout_width="28dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="150dp"
+                    android:text="추천제품"
+                    android:textAlignment="center"
+                    android:background="@drawable/product_shape_min"
+                    android:textColor="#228be6"
+                    android:textSize="8dp" />
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="12dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="150dp"
+                    android:text="●●●"
+                    android:textAlignment="center"
+                    android:background="@drawable/product_shape_min"
+                    android:textColor="#228be6"
+                    android:textSize="8dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

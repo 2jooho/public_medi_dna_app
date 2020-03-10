@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#C3E7FA"
+    android:gravity="center">
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_marginTop="60dp"
+        android:gravity="center|top">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/medina_logo"
+            />
+
+    </LinearLayout>
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:id="@+id/appbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/AppTheme.AppBarOverlay">-->
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:background="?attr/colorPrimary"-->
+            <!--android:text="dd"-->
+            <!--app:popupTheme="@style/AppTheme.PopupOverlay">-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="로그인 화면"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:id="@+id/toolbar_title"-->
+                <!--android:textSize="20sp"-->
+                <!--/>-->
+        <!--</android.support.v7.widget.Toolbar>-->
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:layout_marginBottom="70dp">
+            <EditText
+                android:id="@+id/userId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:hint="아이디"
+                android:textColor="#000"
+                android:textColorHint="#fff"
+                android:background="@drawable/edit2"
+                android:drawableLeft="@drawable/editicon"
+                android:drawablePadding="20dp"
+                android:textSize="23dp" />
+            <EditText
+                android:id="@+id/userPwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:textColor="#000"
+                android:textColorHint="#fff"
+                android:background="@drawable/edit2"
+                android:hint="비밀번호"
+                android:drawableLeft="@drawable/editicon"
+                android:drawablePadding="20dp"
+                android:inputType="textPassword"
+                android:textSize="23dp"/>
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#00ff0000"
+            android:text="아이디/비밀번호 찾기"/>
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:background="@drawable/edit2"
+            android:backgroundTint="#148CFF"
+            android:text="로그인"/>
+            <Button
+                android:id="@+id/joinBtn"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textColor="#000000"
+                android:textSize="40dp"
+                android:backgroundTint="#00ff0000"
+                android:text="회원가입"/>
+
+    </LinearLayout>
+    <!--<android.support.design.widget.BottomNavigationView-->
+        <!--android:id="@+id/bottaom_navigation"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:itemBackground="@color/colorPrimary"-->
+        <!--app:itemIconTint="@color/bottom_section_color"-->
+        <!--app:itemTextColor="@color/bottom_section_color"-->
+        <!--app:layout_anchorGravity="bottom"-->
+        <!--app:layout_behavior="tech.thdev.app.view.BottomNavigationBehavior"-->
+        <!--app:menu="@menu/bottom_navigation_main" />-->
+
+</RelativeLayout>

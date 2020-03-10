@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+ <FrameLayout
+     android:layout_width="300dp"
+     android:layout_height="300dp"
+     android:layout_marginLeft="55dp">
+     <ImageView
+         android:layout_width="200dp"
+         android:layout_height="200dp"
+         android:layout_marginLeft="43dp"
+         android:layout_marginTop="37dp"
+         android:layout_marginRight="30dp"
+         android:id="@+id/radi"
+         android:scaleType="fitXY"
+         android:src="@drawable/raid2"/>
+     <ImageView
+         android:layout_width="270dp"
+         android:layout_height="270dp"
+         android:layout_marginRight="30dp"
+         android:scaleType="fitXY"
+         android:src="@drawable/temper_bar"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:textSize="70dp"
+         android:gravity="center"
+         android:layout_marginBottom="40dp"
+         android:textColor="#B7B3B2"
+         android:id="@+id/tem_text"
+         android:layout_marginLeft="30dp"
+         android:text="10º"/>
+ </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        tools:ignore="MissingConstraints">
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="63dp"
+android:layout_marginBottom="15dp"
+        android:background="#DFDBDA"
+        android:text="적용하기"
+        android:id="@+id/btn"
+        android:textColor="#228BE6"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-3dp" />
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    android:background="@drawable/plant_layout"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="270dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/plant_layout"
+            android:src="@drawable/plant1"/>
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/back"
+            android:onClick="clickHandler"
+            android:background="@drawable/back"/>
+    </FrameLayout>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="바질"
+       android:textColor="#000000"
+       android:textStyle="bold"
+       android:layout_marginLeft="20dp"
+       android:textSize="30dp"
+       android:layout_marginTop="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최적 온도"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#272A30"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="물 주기"
+            android:textSize="20dp"
+            android:layout_marginLeft="18dp"
+            android:textColor="#272A30"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23도"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#838588"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일 1회"
+            android:textSize="15dp"
+            android:layout_marginLeft="68dp"
+            android:textColor="#838588"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최적 조도"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#272A30"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예상 수확일"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#272A30"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조도량 90이상"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#838588"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="약 5일 후"
+            android:textSize="15dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="#838588"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최적 습도"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#272A30"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="85% 이하"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#838588"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

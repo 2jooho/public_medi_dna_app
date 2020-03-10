@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="18dp">
+        <ImageButton
+            android:id="@+id/imagebtn_pig"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape2"
+            android:scaleType="fitXY"
+            android:onClick="clickHandler"
+            />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:id="@+id/textview_pig"
+            android:background="@drawable/shape2"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/item_pig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:textSize="20dp"
+                android:textColor="#3E3E3E"
+                android:text="피부색소침착" />
+            <TextView
+                android:id="@+id/level_pig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#0D4D1D"
+                android:textSize="27dp"
+                android:paddingLeft="10dp"
+                android:text="낮음" />
+            <TextView
+                android:id="@+id/gene_pig"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:textColor="#3E3E3E"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:text="MC1R OCA2" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

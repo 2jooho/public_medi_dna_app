@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/fragment_url"
+      android:orientation="vertical">
+    <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+        android:id="@+id/autoViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager>
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/text1"
+      android:paddingLeft="40dp"
+      android:paddingTop="20dp"
+      android:paddingBottom="10dp"
+      android:text="My Health Care"
+      android:textSize="20dp"
+      android:textColor="#000000" />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/dna_level"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#7BC6FF"
+        android:text="Your \nDNA Level ->"
+        android:textColor="#ffffff"
+        android:gravity="bottom|left"
+        android:scaleType="fitXY"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/dna_level_img"
+        android:src="@drawable/wm"
+        android:scaleType="fitXY"
+        android:layout_weight="1"/>
+  </LinearLayout>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/text2"
+      android:paddingLeft="40dp"
+      android:paddingTop="20dp"
+      android:text="Shop"
+      android:textSize="20dp"
+      android:textColor="#000000" />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="5dp">
+
+    <Button
+        android:id="@+id/market"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#CFD631"
+        android:text="Product Market ->"
+        android:textColor="#000000"
+        android:gravity="bottom|left"
+        android:scaleType="fitXY"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:id="@+id/dna_market_img"
+        android:src="@drawable/market"
+        android:scaleType="fitXY"
+        android:layout_weight="1"/>
+  </LinearLayout>
+  </LinearLayout>
+</ScrollView>
