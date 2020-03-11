@@ -1,14 +1,14 @@
-<img src="./readme_img/android.png" width="250px" height="250px" alt="android"></img><br/>
+<img src="./README_img/android.png" width="250px" height="250px" alt="android"></img><br/>
 
-# APPÀ» ÀÌ¿ëÇÑ ¼¾¼­ Á¶ÀÛ°ú DNA ¿­¶÷ ¹× ÃßÃµ ¾îÇÃ
+# APPì„ ì´ìš©í•œ ì„¼ì„œ ì¡°ìž‘ê³¼ DNA ì—´ëžŒ ë° ì¶”ì²œ ì–´í”Œ
 
-°³ÀÎÀÇ DNAÁ¤º¸¸¦ ¿­¶÷ÇÏ°í °³ÀÎ ¸ÂÃã ½ÄÇ° & ½Ä¹°À» ÃßÃµ¹Þ°í ¶óÁîº£¸®ÆÄÀÌ¿Í ¿¬µ¿ÇÏ¿© ¼ÒÄÏÅë½ÅÀ¸·Î ¹Ì´ÏÆÊ ¼¾¼­ °ªÀ» º¯°æÇÏ°í ÄÁÆ®·Ñ
+ê°œì¸ì˜ DNAì •ë³´ë¥¼ ì—´ëžŒí•˜ê³  ê°œì¸ ë§žì¶¤ ì‹í’ˆ & ì‹ë¬¼ì„ ì¶”ì²œë°›ê³  ë¼ì¦ˆë² ë¦¬íŒŒì´ì™€ ì—°ë™í•˜ì—¬ ì†Œì¼“í†µì‹ ìœ¼ë¡œ ë¯¸ë‹ˆíŒœ ì„¼ì„œ ê°’ì„ ë³€ê²½í•˜ê³  ì»¨íŠ¸ë¡¤
 
 ***
 
-# °³¹ßÈ¯°æ 
+# ê°œë°œí™˜ê²½ 
 
-* ¾Èµå·ÎÀÌµå ½ºÆ©µð¿À
+* ì•ˆë“œë¡œì´ë“œ ìŠ¤íŠœë””ì˜¤
 
 * java
 
@@ -18,56 +18,56 @@
 
 ***
 
-# jsp¼­¹ö ÄÚµå
+# jspì„œë²„ ì½”ë“œ
 
-[jspÄÚµå](https://github.com/2jooho/public_medi_dna_app/tree/server,"jsp")
-
-***
-
-# ±â´É ¼Ò°³
-
-1. ·Î±×ÀÎ, ¸ÞÀÎÆäÀÌÁö (À¯ÀüÀÚ Á¤º¸¿­¶÷ ÆäÀÌÁö¿Í ¶óÁîº£¸®ÆÄÀÌ ¼¾¼­ Á¶ÀÛ ÆäÀÌÁö)   
-
-<img src="./readme_img/login.png" width="250px" height="550px" alt="½ÇÇàÆÄÀÏ"><img>
-<img src="./readme_img/main1.png" width="250px" height="550px" alt="½ÇÇàÆÄÀÏ"><img>
-<img src="./readme_img/main2.png" width="250px" height="550px" alt="½ÇÇàÆÄÀÏ"><img><br/>
-
-2. gene Á¤º¸ ¹× ÃßÃµ ½ÄÇ® ÆäÀÌÁö   
-
-<img src="./readme_img/gene.png" width="250px" height="550px" alt="pdf"><img>
-<img src="./readme_img/product2.png" width="250px" height="550px" alt="pdf"><img>
-<img src="./readme_img/product3.png" width="250px" height="550px" alt="pdf"><img>
-<img src="./readme_img/product.png" width="250px" height="550px" alt="pdf"><img><br/>
-
-3. ¶óÁîº£¸®ÆÄÀÌ(½º¸¶Æ®ÆÊ) ¼¾¼­ Á¶ÀÛ ÆäÀÌÁö   
-
-<img src="./readme_img/sensor2.png" width="250px" height="550px" alt="pdf"><img>
-<img src="./readme_img/sensor.png" width="250px" height="550px" alt="pdf"><img><br/>
+[jspì½”ë“œ](https://github.com/2jooho/public_medi_dna_app/tree/server,"jsp")
 
 ***
 
-# ÄÚµå ¼Ò°³ 
+# ê¸°ëŠ¥ ì†Œê°œ
+
+### `1. ë¡œê·¸ì¸, ë©”ì¸íŽ˜ì´ì§€ (ìœ ì „ìž ì •ë³´ì—´ëžŒ íŽ˜ì´ì§€ì™€ ë¼ì¦ˆë² ë¦¬íŒŒì´ ì„¼ì„œ ì¡°ìž‘ íŽ˜ì´ì§€)`   
+
+<img src="./README_img/login.png" width="200px" height="500px" alt="ì‹¤í–‰íŒŒì¼"><img>
+<img src="./README_img/main1.png" width="200px" height="500px" alt="ì‹¤í–‰íŒŒì¼"><img>
+<img src="./README_img/main2.png" width="200px" height="500px" alt="ì‹¤í–‰íŒŒì¼"><img><br/>
+
+### `2. gene ì •ë³´ ë° ì¶”ì²œ ì‹í’€ íŽ˜ì´ì§€`   
+
+<img src="./README_img/gene.png" width="250px" height="550px" alt="pdf"><img>
+<img src="./README_img/product2.png" width="250px" height="550px" alt="pdf"><img>
+<img src="./README_img/product3.png" width="250px" height="550px" alt="pdf"><img>
+<img src="./README_img/product.png" width="250px" height="550px" alt="pdf"><img><br/>
+
+### `3. ë¼ì¦ˆë² ë¦¬íŒŒì´(ìŠ¤ë§ˆíŠ¸íŒœ) ì„¼ì„œ ì¡°ìž‘ íŽ˜ì´ì§€`   
+
+<img src="./README_img/sensor2.png" width="250px" height="550px" alt="pdf"><img>
+<img src="./README_img/sensor.png" width="250px" height="550px" alt="pdf"><img><br/>
+
+***
+
+# ì½”ë“œ ì†Œê°œ 
 
 * login.java   
 
-¹è°æÀ¸·Î ¿µ»óÀ» ¹Ýº¹Àç»ý ½ÃÅ°°í jsp¿Í ºñµ¿±â Á¢±Ù
+ë°°ê²½ìœ¼ë¡œ ì˜ìƒì„ ë°˜ë³µìž¬ìƒ ì‹œí‚¤ê³  jspì™€ ë¹„ë™ê¸° ì ‘ê·¼
 
 * MainActivity.java   
 
-aFragment, bFragment,autoScrollAdapter¸¦ ÀÌ¿ëÇÏ¿© 2°³ÀÇ ¸ÞÀÎ ÆäÀÌÁö ±¸Ãà
+aFragment, bFragment,autoScrollAdapterë¥¼ ì´ìš©í•˜ì—¬ 2ê°œì˜ ë©”ì¸ íŽ˜ì´ì§€ êµ¬ì¶•
 
 * gene_result
 
-ÇØ´ç À¯ÀúÀÇ À¯ÀüÀÚ °á°ú¸¦ db¿¡¼­ ºÒ·¯¿Í ³ªÅ¸³¿ (dna_information.java¿¡¼­ ÄÁÆ®·Ñ)
+í•´ë‹¹ ìœ ì €ì˜ ìœ ì „ìž ê²°ê³¼ë¥¼ dbì—ì„œ ë¶ˆëŸ¬ì™€ ë‚˜íƒ€ëƒ„ (dna_information.javaì—ì„œ ì»¨íŠ¸ë¡¤)
 
 * gene_button   
 
-gene¹öÆ° º° ¼öÄ¡°ª db¿¡¼­ ºÒ·¯¿Í ³ªÅ¸³¿ (dna_information.java¿¡¼­ ÄÁÆ®·Ñ)
+geneë²„íŠ¼ ë³„ ìˆ˜ì¹˜ê°’ dbì—ì„œ ë¶ˆëŸ¬ì™€ ë‚˜íƒ€ëƒ„ (dna_information.javaì—ì„œ ì»¨íŠ¸ë¡¤)
 
 * market_button   
 
-Á¦Ç° fragmentºÎºÐ market.java¿¡¼­ ºÒ·¯¿È
+ì œí’ˆ fragmentë¶€ë¶„ market.javaì—ì„œ ë¶ˆëŸ¬ì˜´
 
 * sensor_subbutton   
 
-¼¾¼­ ÆäÀÌÁö ¾ÈÀÇ ¶Ç´Ù¸¥ fragmentºÎºÐ°ú ºñµ¿±â¸¦ ÅëÇÑ ¼ÒÄÏÅë½Å
+ì„¼ì„œ íŽ˜ì´ì§€ ì•ˆì˜ ë˜ë‹¤ë¥¸ fragmentë¶€ë¶„ê³¼ ë¹„ë™ê¸°ë¥¼ í†µí•œ ì†Œì¼“í†µì‹ 
